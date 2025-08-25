@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Web Coder Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__inner">
+            <a href="#home" class="header__logo">AI Coder</a>
+            <nav class="header__nav">
+                <a href="#home" class="nav-link is-active">Home</a>
+                <a href="#profile" class="nav-link">Profile</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- トップページ -->
+        <section id="home" class="page is-active">
+            <div class="main-visual">
+                <div class="main-visual__content">
+                    <h1 class="main-visual__title">AIが加速させる、<br>あなたのWebサイト制作。</h1>
+                    <p class="main-visual__subtitle">AIは制作のツール。クリエイティビティの源泉は、あなたのアイデア。</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section__inner">
+                    <h2 class="section__title">Works</h2>
+                    <div class="works-grid">
+                        <div class="work-card">
+                            <a href="#work-detail-it" class="work-link">
+                                <img src="https://placehold.co/600x400/007BFF/ffffff?text=Recruitment+Site" alt="IT企業の採用サイト" class="work-card__img">
+                            </a>
+                            <div class="work-card__content">
+                                <h3 class="work-card__title">IT企業の採用サイト</h3>
+                                <p>ターゲットに響く未来的なデザインと、動きのあるUIを追求しました。Figmaのデザインカンプから、正確なコーディングとレスポンシブデザインを実装。</p>
+                                <a href="#!" class="button" target="_blank" rel="noopener noreferrer">サイトを見る</a>
+                            </div>
+                        </div>
+                        <div class="work-card">
+                            <a href="#work-detail-cafe" class="work-link">
+                                <img src="https://placehold.co/600x400/A5B2A0/fff?text=Café+Rêve" alt="カフェ「Café Rêve」トップページ" class="work-card__img">
+                            </a>
+                            <div class="work-card__content">
+                                <h3 class="work-card__title">カフェ「Café Rêve」トップページ</h3>
+                                <p>お店のコンセプトを忠実に再現した、温かみのあるデザインをコーディングしました。レスポンシブ対応はもちろん、ユーザーが迷わないシンプルな情報設計を意識しています。</p>
+                                <a href="#!" class="button" target="_blank" rel="noopener noreferrer">サイトを見る</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 制作物詳細ページ（IT企業の採用サイト） -->
+        <section id="work-detail-it" class="page">
+            <div class="section">
+                <div class="section__inner--narrow">
+                    <h2 class="section__title">IT企業の採用サイト</h2>
+                    <div class="work-detail">
+                        <h3>制作概要</h3>
+                        <p>Figmaデザインカンプからコーディングした採用ランディングページです。ターゲットである若手クリエイターに「この会社で働きたい」と思わせるような、動きのあるWebサイトを目指しました。</p>
+                        <h3>担当範囲</h3>
+                        <ul>
+                            <li>HTML/CSS/JavaScriptによるコーディング</li>
+                            <li>PC・タブレット・スマートフォンに対応したレスポンシブデザイン</li>
+                            <li>スクロールアニメーション、カルーセル（スライダー）、タブ切り替え機能の実装</li>
+                        </ul>
+                        <h3>こだわった点・工夫した点</h3>
+                        <h4>1. AIによるコードの最適化</h4>
+                        <p>初期のコードをChatGPTにレビューしてもらい、より効率的で読みやすい記述方法を学びました。JavaScriptの実装において、より簡潔なコードで動的な動きを再現する方法をAIと議論し、短時間で完成度を高めることができました。</p>
+                        <h4>2. 妥協しないデザイン再現性</h4>
+                        <p>デザインカンプのピクセル単位の余白やフォントサイズまで、CSSで忠実に再現しました。デザイナーの意図を汲み取り、動きのエフェクトやタイミングを細かく調整し、視覚的な魅力を最大限に引き出しています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 制作物詳細ページ（カフェ「Café Rêve」） -->
+        <section id="work-detail-cafe" class="page">
+            <div class="section">
+                <div class="section__inner--narrow">
+                    <h2 class="section__title">カフェ「Café Rêve」</h2>
+                     <div class="work-detail">
+                        <h3>制作概要</h3>
+                        <p>新規オープンするカフェの魅力を伝えるため、温かみのあるデザインをHTMLとCSSのみでコーディングしました。</p>
+                        <h3>担当範囲</h3>
+                        <ul>
+                            <li>HTML/CSSによるコーディング</li>
+                            <li>PC・タブレット・スマートフォンに対応したレスポンシブデザイン</li>
+                        </ul>
+                        <h3>こだわった点・工夫した点</h3>
+                        <h4>1. AIによるレイアウトのアイデア</h4>
+                        <p>「カフェのトップページで、温かみと清潔感を両立させるにはどうすればいいか？」という問いをAIに投げかけ、複数のレイアウトアイデアを参考にしました。CSSのグリッドやフレックスボックスの配置をAIに相談することで、制作時間を大幅に短縮しました。</p>
+                        <h4>2. 誰にでも優しい情報設計</h4>
+                        <p>メニューやアクセス情報を一目で分かるように、シンプルな構成にこだわりました。スマートフォンで閲覧するユーザーが、迷うことなく情報にたどり着けるよう、レイアウトとフォントサイズを最適化しました。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- プロフィールページ -->
+        <section id="profile" class="page">
+            <div class="section">
+                <div class="section__inner--narrow">
+                    <h2 class="section__title">Profile</h2>
+                    <h3>自己紹介</h3>
+                    <p>はじめまして、〇〇〇〇と申します。<br>私は「AIとともに、高品質なWebサイトを迅速に構築すること」をミッションに活動するWebコーダーです。</p>
+                    <h3>AIが私にもたらす価値</h3>
+                    <p>AIは、私の「もう一人の相棒」です。</p>
+                    <ul>
+                        <li><strong>効率化:</strong> コードのレビューや、最適な実装方法の提案をAIに任せることで、人間だけでは見過ごしがちなミスを減らし、制作スピードを格段に上げることができます。</li>
+                        <li><strong>創造性の向上:</strong> 単純作業をAIに任せることで、デザインの細部やユーザー体験の向上といった、よりクリエイティブな作業に集中できます。</li>
+                    </ul>
+                    <p>AIを最大限に活用し、クライアントの期待を超えるクオリティの制作物を、スピーディーに提供することをお約束します。</p>
+                    <h3>スキルセット</h3>
+                    <ul class="skills-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Sass</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Figma</li>
+                        <li>VS Code</li>
+                        <li>Git</li>
+                        <li>レスポンシブデザイン</li>
+                        <li>SEO</li>
+                        <li>AI (ChatGPT, etc.)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
